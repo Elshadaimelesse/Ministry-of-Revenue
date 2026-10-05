@@ -1,0 +1,18 @@
+[package]
+name = "govrevenue-rust-security"
+version = "1.81.0"
+edition = "2021"
+authors = ["Ministry of Revenues Security Team <sec@gebiwoch.gov.et>"]
+description = "High-performance cryptographic security daemon & tax auditing engine for FDRE Ministry of Revenues"
+
+[dependencies]
+actix-web = "4.9"
+actix-rt = "2.10"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+ring = "0.17"
+hex = "0.4"
+rayon = "1.10"
+chrono = { version = "0.4", features = ["serde"] }
+tokio = { version = "1.40", features = ["full"] }
+parking_lot = "0.12"
