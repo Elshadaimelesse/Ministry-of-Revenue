@@ -1,0 +1,6 @@
+{
+  "name": "GovRevenue AI — Ethiopian Revenue Service & Case Management Platform",
+  "description": "Enterprise government platform for Gebiwoch Biro (Ethiopian Revenue Bureau) featuring Customer, Client, Admin, Director, and Super Admin roles with GovAI multilingual agents, case workflow automation, and Rust cryptographic security.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
